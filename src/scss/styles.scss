@@ -1,0 +1,18 @@
+@import 'header';
+@import 'main';
+html{
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+    margin: 0;
+}
+body{
+    background: hsl(0, 0%, 90%);
+    
+}
