@@ -9,7 +9,6 @@ const $DarkMode = () => {
     const $InputSearch = document.querySelector('.content_inputSeatch');
     function BackgroundCards(ColorBackground, ColorText) {
       for (const Card of $Cards) {
-        $InputSearch.style.color = '#000';
         Card.style.background = ColorBackground;
         Card.style.color = ColorText;
         $Header.style.background = ColorBackground;
